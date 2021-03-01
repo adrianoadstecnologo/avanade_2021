@@ -4,7 +4,7 @@ TRUE,
  '2019-05-05 18:00:00',
  '2019-05-05 18:00:00',
  '$2a$10$gWdzOgU4KwOyvqs40jxqyuhTCH2jhYoLFOY3/59IbftT22PnOJCtu',
- 'filipececcon');
+ 'adrianosilva');
 
 
 INSERT INTO cliente 
@@ -15,10 +15,10 @@ INSERT INTO cliente
 TRUE, 
 '2019-05-05 18:00:00', 
 '2019-05-05 18:00:00', 
-'filipececcon@gmail.com',
-'Filipe',
-'Ceccon',
-'999999999'
+'adriano.silva@gmail.com',
+'Adriano',
+'Ap da Silva',
+'99999254'
 );
 
 INSERT INTO conta_corrente
