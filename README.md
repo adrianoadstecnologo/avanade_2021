@@ -1,4 +1,4 @@
-#Projeto conclusivo do Curso Spring Cloud Gama-Avanade 2021
+## Projeto conclusivo do Curso Spring Cloud Gama-Avanade 2021
 
                                      Api de Conta Corrente 
 
@@ -37,7 +37,8 @@ ContaCorrente
 - Saldo
 
 
--Obs:Apesar de ser uma modelagem simples aqui colocada, existem algumas relações bem definidas entre os Objetos de algumas Entidades.
+- Obs: Apesar de ser uma modelagem simples aqui colocada, existem algumas relações bem definidas 
+  entre os Objetos de algumas Entidades.
   As Entidades Login e ContaCorrente possuem a relação de composição ou seja: Sem um Cliente as duas não existem.
  
 ---------------------------
@@ -85,12 +86,12 @@ Spring security
 Docker
 - Justificativa de uso: Para termos mais produtividade quando o assunto é instalação e configuração de SGBD, uma vez que em um único arquivo YAML configuramos e baixamos tudo que precisaremos para Comunicação da nossa Camada de Persistência. Sem mencionar as facilidades diante de suas operações relacionadas aos SGBD como Startar,Parar,Restartar e até mesmo Apagar e Recriar novamente o ambiente todo de SGBD com poucas linhas de comando através de um terminal. Entre outras funcionalidades fantásticas que temos com o uso do docker, container com aplicações e serviços distintos se comunicando entre si, escalabilidade etc.
 
-#Estrutura do Projeto
+## Estrutura do Projeto
 
 No projeto e fácil identificar uma estrutura de pacotes e arquivos bem distribuídos de acordo com suas funcionalidades e especializações.
   Com esta estrutura conseguimos saber exatamente onde buscar o que queremos.
   
-#Solid e Clean Code
+## Solid e Clean Code
 
  Aplicamos no projeto técnicas simples do Clean Code a fim de facilitar a escrita e a leitura do código.
  
@@ -126,7 +127,7 @@ Nestas Classes deste pacote se concentra toda regra de negocio correspondente a 
   @GetMapping()-Usado geralmente para Listar, entre outros verbos http existentes para atender uma API RestFull.
   
   
-#Configuração de Ambiente
+## Configuração de Ambiente
 
 - Segue o YAML no pacote others para realizar a instalação no Docker para criar o Ambiente de Banco de Dados.
 
